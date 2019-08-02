@@ -23,7 +23,7 @@ Currently it only works for league standings.
    If the League you are looking for doesn't exist the response will look like this:
    ```json
     {
-        "code": 204,
+        "code": 400,
         "message": "League ASDF not found"
     }
    ```
